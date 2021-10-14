@@ -157,39 +157,16 @@ img{
   height: 80%;
 }
 
+footer img {
+width:125px;
+}
 footer {
-display: block;
-}
-.footer {
-  background-color: #57cc40;
-  color: #fff;
-  height: 100px;
-  padding: 20px;
-}
-
-.footer-logo {
-  float: left;
-  font-size: 32px;
-}
-
-.footer-list {
-  float: right;
-}
-
-.footer-list li {
+  padding-top: 30px;
   padding-bottom: 20px;
 }
-span.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+footer p{
+  font-size:14px;
 }
-.lesson {
-  float: left;
-  width: 33%;
-}
-.lesson-icon {
-  position: relative;
+.footer-right{
+  text-align:right;
 }
