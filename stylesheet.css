@@ -153,14 +153,13 @@ footer img {
 width:125px;
 }
 footer {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  background-color:rgba(14, 153, 180, 0.9);
 }
 footer p{
   font-size:14px;
-}
-.footer-right{
-  text-align:right;
+  text-align: center;
 }
 span.menu-icon {
   color: white;
