@@ -143,15 +143,7 @@
   display:flex;
   flex-direction: row;
 }
-.wrepper-img{
-  box-shadow: 0 5px 15px rgb(247, 244, 244);
-  width:300px;
-  height:300px;
-  margin: 20px;
-  padding:20px;
-  border-radius:8px;
 
-}
 img{
   width:80%;
   height: 80%;
@@ -169,4 +161,19 @@ footer p{
 }
 .footer-right{
   text-align:right;
+}
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.lesson {
+float: left;
+width: 33%;
+text-align: center;
+}
+.lesson-icon {
+position: relative;
 }
