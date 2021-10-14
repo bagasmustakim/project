@@ -4,8 +4,10 @@
       font-size: 32px;
     }
     .lesson {
-      width: 50%;
-      margin-bottom: 50px;
+    width: 30%;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     }
   }
   
