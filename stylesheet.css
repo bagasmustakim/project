@@ -165,3 +165,17 @@ display: block;
 .footer-list li {
   padding-bottom: 20px;
 }
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.lesson {
+  float: left;
+  width: 33%;
+}
+.lesson-icon {
+  position: relative;
+}
