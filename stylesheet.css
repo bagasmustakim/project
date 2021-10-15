@@ -89,16 +89,21 @@ header {
 }
 
 @keyframes mover {
-0% {
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  0% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(10px);
+  }
+  100% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  }
 }
-50% {
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-  transform: translateY(10px);
-}
-100% {
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0);
-}
+
+.logo1 {
+  width: 124px;
+  margin-top: 20px;
 }
 
 .header-left {
