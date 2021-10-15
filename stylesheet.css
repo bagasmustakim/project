@@ -1,178 +1,194 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Lucida Grande";
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .clear {
-    clear: left;
-  }
-  
-  .container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  .top-wrapper {
-    padding: 190px 0 150px 0;
-    background-image: url(https://cdn.pixabay.com/photo/2016/07/14/02/22/living-room-1515976_1280.jpg);
-    background-size: cover;
-    color: rgb(250, 246, 246);
-    text-align: center;
-  }
-  
-  .top-wrapper h1 {
-    opacity: 1.0;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper p {
-    opacity: 1.0;
-    margin-bottom: 3px;
-  }
-  
-  .btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .btn-wrapper p {
-    margin: 10px 0;
-  }
-  
-  .baca {
-    background-color: #0f26f7;
-  }
-  
-  
-  .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  .fa {
-    margin-right: 5px;
-  }
-  
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(14, 153, 180, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-  
-  .logo {
-    width: 124px;
-    margin-top: 20px;
-    animation: mover 4s linear infinite;  
-  }
-
-  @keyframes mover {
-  0% {
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
-  }
-  50% {
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-    transform: translateY(10px);
-  }
-  100% {
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
-  }
+  box-sizing: border-box;
 }
 
-  .header-left {
-    float: left;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  .lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 190px 0 150px 0;
+  background-image: url(https://cdn.pixabay.com/photo/2016/07/14/02/22/living-room-1515976_1280.jpg);
+  background-size: cover;
+  color: rgb(250, 246, 246);
   text-align: center;
 }
+
+.top-wrapper h1 {
+  opacity: 1.0;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1.0;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.baca {
+  background-color: #0f26f7;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(14, 153, 180, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  animation: mover 4s linear infinite;  
+}
+
+@keyframes mover {
+0% {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+}
+50% {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(10px);
+}
+100% {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+}
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.lesson-wrapper {
+padding-bottom: 80px;
+padding-left: 5%;
+padding-right: 5%;
+background-color: #f7f7f7;
+text-align: center;
+}
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+padding-top: 80px;
+padding-bottom: 50px;
+color: #5f5d60;
 }
 
 .heading h2 {
-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  opacity:0.7;
 }
 
 .container-img{
-  display:flex;
-  flex-direction: row;
+display:flex;
+flex-direction: row;
 }
 
 img{
-  width:80%;
-  height: 80%;
+width:80%;
+height: 80%;
 }
-
+.message{
+  text-align: center;
+}
+.heading-message h2{
+  color: red;
+  opacity:0.7;
+}
 footer img {
 width:125px;
 }
 footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color:rgba(14, 153, 180, 0.9);
+padding-top: 20px;
+padding-bottom: 20px;
+background-color:rgba(14, 153, 180, 0.9);
 }
 footer p{
-  font-size:14px;
-  text-align: center;
+font-size:14px;
+text-align: center;
 }
 span.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+color: white;
+float: right;
+font-size: 25px;
+padding: 21px 0;
+display: none;
 }
 .lesson {
 float: left;
 width: 33%;
 text-align: center;
+
 }
 .lesson-icon {
 position: relative;
+}
+.txt-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #1070ee;
+  opacity:0.7;
 }
